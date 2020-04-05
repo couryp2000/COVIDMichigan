@@ -14,7 +14,7 @@ import org.jsoup.select.Elements;
 public class Sweep {
 
 	public static void main(String args[]) throws IOException {
-			Document doc = Jsoup.connect("https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html").get();
+			Document doc = Jsoup.connect("https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html").get();
 			Element table = doc.select("table").get(0);
 			Elements rows = table.select("tr");
 			Elements cols = rows.select("td");
@@ -29,7 +29,7 @@ public class Sweep {
 			int count = 1;
 			for(int i = 0; i<data.size();i++) {	
 			if(count==1) {
-				county.add(data.get(i).substring(data.get(i).indexOf(";")+2));
+				county.add(data.get(i).substring(data.get(i).indexOf(";")+1));
 				count++;
 			}
 			else if(count==2) {
