@@ -1,0 +1,75 @@
+Antrim, 6, 0
+Arenac, 4, 0
+Barry, 7, 0
+Bay, 39, 0
+Berrien, 72, 2
+Branch, 18, 1
+Calhoun, 51, 1
+Cass, 9, 1
+Charlevoix, 8, 0
+Cheboygan, 10, 1
+Chippewa, 1, 0
+Clare, 2, 0
+Clinton, 82, 1
+Crawford, 5, 1
+Delta, 8, 0
+Detroit City, 5824, 251
+Dickinson, 2, 1
+Eaton, 67, 3
+Emmet, 15, 2
+Genesee, 713, 39
+Gladwin, 4, 0
+Gogebic, 3, 1
+Grand Traverse, 15, 3
+Gratiot, 5, 0
+Hillsdale, 62, 4
+Houghton, 1, 0
+Huron, 4, 0
+Ingham, 205, 2
+Ionia, 11, 1
+Iosco, 4, 1
+Isabella, 22, 2
+Jackson, 126, 4
+Kalamazoo, 67, 6
+Kalkaska, 10, 2
+Kent, 207, 8
+Lapeer, 64, 5
+Leelanau, 4, 0
+Lenawee, 36, 0
+Livingston, 174, 2
+Luce, 1, 0
+Mackinac, 3, 0
+Macomb, 2626, 141
+Manistee, 9, 0
+Marquette, 18, 2
+Mason, 1, 0
+Mecosta, 8, 1
+Midland, 24, 1
+Missaukee, 1, 1
+Monroe, 152, 0
+Montcalm, 18, 1
+Muskegon, 42, 4
+Newaygo, 3, 0
+Oakland, 4007, 234
+Oceana, 3, 1
+Ogemaw, 3, 0
+Osceola, 3, 0
+Oscoda, 2, 0
+Otsego, 29, 2
+Ottawa, 55, 0
+Presque Isle, 1, 0
+Roscommon, 6, 0
+Saginaw, 186, 6
+Sanilac, 22, 2
+Schoolcraft, 1, 0
+Shiawassee, 27, 0
+St Clair, 140, 3
+St Joseph, 16, 0
+Tuscola, 27, 2
+Van Buren, 18, 1
+Washtenaw, 610, 13
+Wayne, 3802, 195
+Wexford, 7, 0
+Other*, 287, 2
+Unknown, 77, 1
+Out of State, 126, 1
