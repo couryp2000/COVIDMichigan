@@ -62,9 +62,9 @@ public class Sweep {
 			      e.printStackTrace();
 			    }
 			 try {
-			      FileWriter myWriter = new FileWriter("COVID_"+dateFormatted+".txt");
+			      FileWriter myWriter = new FileWriter("COVID_"+dateFormatted+".csv");
 			      for(int i = 0; i<county.size()-1;i++) {
-			    	  myWriter.write(county.get(i)+", "+infected.get(i)+", "+deaths.get(i)+"\n");
+			    	  myWriter.write(dateFormatted + ", " + county.get(i)+", "+infected.get(i)+", "+deaths.get(i)+"\n");
 			      }
 			      myWriter.close();
 			      System.out.println("Successfully wrote to the file.");
