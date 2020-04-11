@@ -56,7 +56,7 @@ public class Sweep {
 		String dateFormatted = java.time.LocalDate.now().toString();
 		boolean isNewFile = false;
 		try {
-			File myObj = new File("COVID_" + dateFormatted + ".txt");
+			File myObj = new File("COVID_" + dateFormatted + ".csv");
 			if (myObj.createNewFile()) {
 				System.out.println("File created: " + myObj.getName());
 				isNewFile = true;
@@ -101,9 +101,8 @@ public class Sweep {
 					myStmt.setInt(4, deaths.get(i));
 					myStmt.addBatch();
 
-					if (i % 100 == 0 || i == (county.size() - 1))
-						myStmt.executeBatch();
 				}
+				myStmt.executeBatch();
 
 			} catch (Exception e) {
 				System.out.println(e);
